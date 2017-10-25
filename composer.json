@@ -1,0 +1,16 @@
+{
+    "name": "vishalshitole/tddworkshop",
+    "description": "understanding TDD workshop",
+    "autoload": {
+          "psr-4": {"Phpreboot\\": "src/Phpreboot"}
+     },
+     "autoload-dev": {
+           "psr-4": {"Phpreboot\\": "tests/Phpreboot"}
+     },
+     "require": {
+
+     },
+     "require-dev": {
+        "phpunit/phpunit": "6.4"
+     }  
+}
