@@ -17,10 +17,14 @@ try{
           $numbers = isset($argv[2]) ? $argv[2] : ' ';
           echo $calculator->add($numbers) . PHP_EOL;
           break;
+     case 'sum':
+          $numbers = isset($argv[2]) ? $argv[2] : ' ';
+          echo $calculator->add($numbers) . PHP_EOL;
+          break;          
      case 'multiply':
           $numbers = isset($argv[2]) ? $argv[2] : ' ';
           echo $calculator->multiply($numbers) . PHP_EOL;
-          break;     
+          break;
      default:
          echo 'Please check the operator' . PHP_EOL;
   }
